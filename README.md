@@ -6,6 +6,7 @@ Removing the specific value from the session array and re indexing  the session 
     unset($_SESSION['array_name']['sub_array'][sub_array_key]);
 
 #reindexing the session array
+
   //function call
 
     $this->reindex($_SESSION['array_name']['sub_array']);
